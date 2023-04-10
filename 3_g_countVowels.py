@@ -6,7 +6,7 @@ vowels = "aeiou"
 vow_dict = {}
 count = 0
 for i in s:
-    if i in vowels:
+    if i.lower() in vowels:
         count+= 1
         if i in vow_dict:
             vow_dict[i] += 1
